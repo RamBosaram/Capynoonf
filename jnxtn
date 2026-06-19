@@ -1,2 +1,42 @@
-python3 weredevs_strings_extractor.py obfuscated.lua > strings.txt
-cat strings.txt
+MacBook-Pro-ADMIN:lua-5.4.7 admin$ python3 weredevs_strings_extractor.py obfuscated.lua > strings.txt
+[+] Алфавит распарсен: 64 символов
+[+] Найдено закодированных строк: 53
+Всего строк: 53
+MacBook-Pro-ADMIN:lua-5.4.7 admin$ cat strings.txt
+======================================================================
+РАСШИФРОВАННЫЕ СТРОКИ
+======================================================================
+[  1] 'UZYÕ¥d\x151OWT'
+[  2] 'Tamper!\x11\x95\x8ced!'
+[  4] 'hncGfC\x1a¨ú'
+[  6] 'game'
+[  8] 'rem'
+[ 11] 'eeS\x1c]#C\x84P'
+[ 13] 'setY]\x18]\x18X'
+[ 14] '_[\x19['
+[ 17] 'phF'
+[ 18] 'J0V\x0cÌõ¤\x17\x16cd'
+[ 19] '8PRÓ\x1cÉOJS'
+[ 20] 'MnrWLZs0RÛ\x94`'
+[ 24] ':'
+[ 27] 'string'
+[ 28] 'azhMvk\x1d\x1b3'
+[ 29] 'UU\x91ÓNP'
+[ 30] '\x1b1É¦g'
+[ 31] 'MRkdpfK6 '
+[ 32] 'ran'
+[ 33] 'char'
+[ 34] '_[Y]\x18F\x14'
+[ 35] 'floÜ'
+[ 36] 'YhoGJkhi8'
+[ 37] 'g}X'
+[ 39] '_ZfD'
+[ 40] 'gma'
+[ 41] "$f'IzZ\x1d\x8e"
+[ 42] 'UmrCzrKY\x05\xad'
+[ 44] 'errÜ'
+[ 45] 'Http'
+[ 48] '\x1f?$»'
+[ 49] '¡\x1aß½aÜ\\\x00)Ii\x80~EXLÄX\x7fi\x99\x86B\x7fùW\x0eÍv¸'
+[ 51] '_YØ'
+[ 52] '\x1aåµer'
