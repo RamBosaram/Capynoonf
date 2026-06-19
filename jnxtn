@@ -1,7 +1,1 @@
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ lua weredevs_tracer.lua obfuscated.lua > trace.log 2> errors.log
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ cat errors.log
-[*] Загружен файл: obfuscated.lua (18850 байт)
-[*] Запуск в песочнице...
-[!] Скрипт упал с ошибкой: [string "obfuscated"]:1: attempt to perform arithmetic on a nil value (local 'U')
-    (Это нормально — мы получаем частичный трейс до падения)
-[*] Готово. Получено 2 событий.
+lua: weredevs_tracer.lua:383: syntax error near <eof>
