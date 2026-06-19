@@ -1,8 +1,6 @@
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ wc -l weredevs_tracer.lua
-     382 weredevs_tracer.lua
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ tail -5 weredevs_tracer.lua
-print("-- ====================================================================")
-print("")
-for _, line in ipairs(trace) do
-    print(line)
-endv
+sed -i '' 's/endv$/end/' weredevs_tracer.lua    
+
+tail -3 weredevs_tracer.lua
+
+lua weredevs_tracer.lua obfuscated.lua > trace.log 2> errors.log
+cat errors.log
