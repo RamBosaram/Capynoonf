@@ -1,3 +1,8 @@
-lua: weredevs_tracer.lua:383: syntax error near <eof>
-wc -l weredevs_tracer.lua
-tail -5 weredevs_tracer.lua
+MacBook-Pro-ADMIN:lua-5.4.7 admin$ wc -l weredevs_tracer.lua
+     382 weredevs_tracer.lua
+MacBook-Pro-ADMIN:lua-5.4.7 admin$ tail -5 weredevs_tracer.lua
+print("-- ====================================================================")
+print("")
+for _, line in ipairs(trace) do
+    print(line)
+endv
