@@ -1,1 +1,2 @@
-head -3 weredevs_strings_extractor.py
+python3 weredevs_strings_extractor.py obfuscated.lua > strings.txt
+cat strings.txt
