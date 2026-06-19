@@ -1,1 +1,3 @@
 lua: weredevs_tracer.lua:383: syntax error near <eof>
+wc -l weredevs_tracer.lua
+tail -5 weredevs_tracer.lua
