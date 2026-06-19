@@ -64,3 +64,4 @@
      'm' -> 60
      '9' -> 61
      'G' -> 63
+grep -oE 'J\s*=\s*[0-9+\-]+' obfuscated.lua | head -5
