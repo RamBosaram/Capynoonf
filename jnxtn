@@ -1,13 +1,6 @@
--- ====================================================================
--- Trace from WearDevs-obfuscated script: obfuscated.lua
--- ====================================================================
-
-READ_GLOBAL "5BFbyMIzbhsXuN"
-PCALL_ERROR: [string "obfuscated"]:1: attempt to index a nil value (local 'm')
-PCALL_ERROR: [string "obfuscated"]:1: attempt to pow a 'string' with a 'number'
-ERROR: [string "obfuscated"]:5887: attempt to pow a 'string' with a 'number'
-READ_GLOBAL "QUigYZVApy1OWT"
-PCALL_ERROR: [string "obfuscated"]:1: attempt to index a nil value (local 'm')
-PCALL_ERROR: [string "obfuscated"]:1: attempt to pow a 'string' with a 'number'
-PCALL_ERROR: [string "obfuscated"]:1: attempt to index a nil value (local 'm')
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ 
+MacBook-Pro-ADMIN:lua-5.4.7 admin$ python3 weredevs_strings_extractor.py obfuscated.lua > strings.txt
+  File "/Users/admin/lua-work/lua-5.4.7/weredevs_strings_extractor.py", line 18
+    """
+       ^
+SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 1453-1454: malformed \N character escape
+MacBook-Pro-ADMIN:lua-5.4.7 admin$ cat strings.txt
