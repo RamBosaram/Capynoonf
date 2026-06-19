@@ -1,6 +1,13 @@
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ cat errors.log
-[*] Загружен файл: obfuscated.lua (18850 байт)
-[*] Запуск в песочнице...
-[!] Скрипт упал: [string "obfuscated"]:1: attempt to perform arithmetic on a nil value (local 'U')
-    (Частичный трейс до падения — внизу)
-[*] Готово. Получено 8 событий.
+-- ====================================================================
+-- Trace from WearDevs-obfuscated script: obfuscated.lua
+-- ====================================================================
+
+READ_GLOBAL "5BFbyMIzbhsXuN"
+PCALL_ERROR: [string "obfuscated"]:1: attempt to index a nil value (local 'm')
+PCALL_ERROR: [string "obfuscated"]:1: attempt to pow a 'string' with a 'number'
+ERROR: [string "obfuscated"]:5887: attempt to pow a 'string' with a 'number'
+READ_GLOBAL "QUigYZVApy1OWT"
+PCALL_ERROR: [string "obfuscated"]:1: attempt to index a nil value (local 'm')
+PCALL_ERROR: [string "obfuscated"]:1: attempt to pow a 'string' with a 'number'
+PCALL_ERROR: [string "obfuscated"]:1: attempt to index a nil value (local 'm')
+MacBook-Pro-ADMIN:lua-5.4.7 admin$ 
