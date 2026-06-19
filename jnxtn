@@ -1,6 +1,1 @@
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ python3 weredevs_strings_extractor.py obfuscated.lua > strings.txt
-  File "/Users/admin/lua-work/lua-5.4.7/weredevs_strings_extractor.py", line 18
-    """
-       ^
-SyntaxError: (unicode error) 'unicodeescape' codec can't decode bytes in position 1453-1454: malformed \N character escape
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ cat strings.txt
+awk 'NR==2 && /^"""$/ {print "r\"\"\""; next} {print}' weredevs_strings_extractor.py > tmp_extractor.py && mv tmp_extractor.py weredevs_strings_extractor.py
