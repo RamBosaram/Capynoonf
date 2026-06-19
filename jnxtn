@@ -1,6 +1,6 @@
-sed -i '' 's/endv$/end/' weredevs_tracer.lua    
-
-tail -3 weredevs_tracer.lua
-
-lua weredevs_tracer.lua obfuscated.lua > trace.log 2> errors.log
-cat errors.log
+MacBook-Pro-ADMIN:lua-5.4.7 admin$ cat errors.log
+[*] Загружен файл: obfuscated.lua (18850 байт)
+[*] Запуск в песочнице...
+[!] Скрипт упал: [string "obfuscated"]:1: attempt to perform arithmetic on a nil value (local 'U')
+    (Частичный трейс до падения — внизу)
+[*] Готово. Получено 8 событий.
