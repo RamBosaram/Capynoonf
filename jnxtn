@@ -1,16 +1,3 @@
-Lua 5.4.7  Copyright (C) 1994-2024 Lua.org, PUC-Rio
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ nano weredevs_tracer.lua
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ nano obfuscated.lua
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ ls -la
-total 80
-drwxr-xr-x    8 admin  staff    256 Jun 19 17:15 .
-drwxr-xr-x    4 admin  staff    128 Jun 19 17:04 ..
--rw-r--r--    1 admin  staff   3150 May  9  2024 Makefile
--rw-r--r--    1 admin  staff    151 Jun 14  2024 README
-drwxr-xr-x   12 admin  staff    384 Jun 14  2024 doc
--rw-r--r--    1 admin  staff  18850 Jun 19 17:15 obfuscated.lua
-drwxr-xr-x  102 admin  staff   3264 Jun 19 17:04 src
--rw-r--r--    1 admin  staff  10115 Jun 19 17:14 weredevs_tracer.lua
 MacBook-Pro-ADMIN:lua-5.4.7 admin$ lua weredevs_tracer.lua obfuscated.lua > trace.log 2> errors.log
 MacBook-Pro-ADMIN:lua-5.4.7 admin$ cat errors.log
 [*] Загружен файл: obfuscated.lua (18850 байт)
@@ -18,45 +5,3 @@ MacBook-Pro-ADMIN:lua-5.4.7 admin$ cat errors.log
 [!] Скрипт упал с ошибкой: [string "obfuscated"]:1: attempt to perform arithmetic on a nil value (local 'U')
     (Это нормально — мы получаем частичный трейс до падения)
 [*] Готово. Получено 2 событий.
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ cat trace.log
--- ====================================================================
--- Trace from WearDevs-obfuscated script: obfuscated.lua
--- ====================================================================
-
-READ_GLOBAL "5BFbyMIzbhsXuN"
-READ_GLOBAL "QUigYZVApy1OWT"
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ 12 admin  staff    384 Jun 14  2024 doc
--bash: 12: command not found
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ -rw-r--r--    1 admin  staff  18850 Jun 19 17:15 obfuscated.lua
--bash: -rw-r--r--: command not found
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ drwxr-xr-x  102 admin  staff   3264 Jun 19 17:04 src
--bash: drwxr-xr-x: command not found
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ -rw-r--r--    1 admin  staff  10115 Jun 19 17:14 weredevs_tracer.lua
--bash: -rw-r--r--: command not found
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ MacBook-Pro-ADMIN:lua-5.4.7 admin$ lua weredevs_tracer.lua obfuscated.lua > trace.log 2> errors.log
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ MacBook-Pro-ADMIN:lua-5.4.7 admin$ cat errors.log
--bash: MacBook-Pro-ADMIN:lua-5.4.7: command not found
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ [*] Загружен файл: obfuscated.lua (18850 байт)
--bash: syntax error near unexpected token `('
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ [*] Запуск в песочнице...
--bash: [*]: command not found
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ [!] Скрипт упал с ошибкой: [string "obfuscated"]:1: attempt to perform arithmetic on a nil value (local 'U')
--bash: syntax error near unexpected token `('
-MacBook-Pro-ADMIN:lua-5.4.7 admin$     (Это нормально — мы получаем частичный трейс до падения)
--bash: Это: command not found
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ [*] Готово. Получено 2 событий.
--bash: [*]: command not found
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ MacBook-Pro-ADMIN:lua-5.4.7 admin$ cat trace.log
--bash: MacBook-Pro-ADMIN:lua-5.4.7: command not found
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ -- ====================================================================
--bash: --: command not found
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ -- Trace from WearDevs-obfuscated script: obfuscated.lua
--bash: --: command not found
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ -- ====================================================================
--bash: --: command not found
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ 
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ READ_GLOBAL "5BFbyMIzbhsXuN"
--bash: READ_GLOBAL: command not found
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ READ_GLOBAL "QUigYZVApy1OWT"
--bash: READ_GLOBAL: command not found
-MacBook-Pro-ADMIN:lua-5.4.7 admin$ MacBook-Pro-ADMIN:lua-5.4.7 admin$ 
